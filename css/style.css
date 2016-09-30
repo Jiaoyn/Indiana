@@ -1,0 +1,82 @@
+body {
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 100px;
+	margin-top: 300px; 
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+#map1 {
+	background-color: yellow;
+}
+
+#map2 {
+	background-color: pink;
+}
+
+#map3 {
+	background-color: orange;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.third {
+	width: 29.3%;
+	display: block;
+	float: left;
+	padding: 2%;
+}
+
+.hero {
+	width: 100%;
+	height: 85vh;
+	background-color: red;
+}
+
+#steve a {
+	color: orange;
+}
+
+.professor a {
+	text-transform: uppercase;
+	color: green;
+}
+
+@media (min-width: 500px) {
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.third {
+		width: 29.3%;
+		display: block;
+		float: left;
+		padding: 2%;
+	}
+}
+
+@media (min-width: 750px) {
+	.container{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.third {
+		width: 29.3%;
+		display: block;
+		float: left;
+		padding: 2%;
+	}
+}

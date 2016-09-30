@@ -1,0 +1,56 @@
+body {
+	background-color: gold;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.hero {
+	background-color: red;
+	width: 100%;
+	padding: 3em 0;
+	float: left;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.third {
+	width: 100%;
+	float: left;
+}
+
+h2 {
+	font-size: 2em;
+
+}
+
+.third p {
+	font-size: 1em;
+	color: white;
+}
+
+@media (min-width: 768px) {
+	.third {
+		width: 31%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	body {
+		font-size: 16px;	
+	}
+}
+
+@media (min-width: 1180px) {
+	.third {
+		width: 31%;
+		margin-right: 2%;
+		float: left;
+	}
+
+	body {
+		font-size: 20px;	
+	}
+}
